@@ -1,20 +1,17 @@
 # SiteLoop
 
-SiteLoop is an offline-first construction materials reuse app. It matches
-material requests with surplus stock across sites, helping reduce unnecessary
-purchases and waste.
+SiteLoop is an offline-first construction materials reuse app for managing
+surplus materials across project sites.
 
-## Deployment
+## What it does
 
-This repository contains a prebuilt static web app in `siteloop-web/`.
-Vercel is configured through [`vercel.json`](./vercel.json) to publish that
-directory. No build command or environment variables are required.
+- Matches material requests with available surplus stock.
+- Tracks material transfers between sites.
+- Records dispatch and on-site receipt quantities.
+- Supports offline use through browser storage and a service worker.
+- Includes QR-code scanning for field workflows.
 
-To deploy with Vercel:
+## Repository structure
 
-1. Import this GitHub repository into Vercel.
-2. Keep the project root at the repository root.
-3. Leave the framework preset as **Other** and deploy.
-
-The app uses hash-based routes and includes a service worker for offline
-support, so it does not require server-side routing or an API.
+- `siteloop-web/` — web app and static assets.
+- `siteloop-offline.html` — standalone offline version.
