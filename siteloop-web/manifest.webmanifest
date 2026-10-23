@@ -1,0 +1,17 @@
+{
+  "name": "SiteLoop Field",
+  "short_name": "SiteLoop",
+  "description": "List surplus, dispatch and receive construction material reuse transfers from site.",
+  "start_url": "./#/field",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f1f3ee",
+  "theme_color": "#18221e",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
